@@ -1,3 +1,7 @@
-import add_0
-x = add_0.add(1, 2)
-print(x)
+#!/usr/bin/python3
+from add_0 import add
+
+a = 1
+b = 2
+
+print("{0} + {1} = {2}".format(a, b, add(a, b)))
