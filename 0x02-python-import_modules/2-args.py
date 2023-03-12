@@ -7,11 +7,11 @@ if __name__ == "__main__":
     num_args = len(sys.argv) - 1  # exclude the program name itself
     
     if num_args == 0:
-        print("Number of arguments: 0.")
+        print("0 arguments.")
     elif num_args == 1:
-        print("Number of argument: 1.")
+        print("1 argument:")
     else:
-        print(f"Number of arguments: {num_args}.")
+        print(f"arguments: {num_args}.")
     
     if num_args > 0:
         print("Arguments:")
